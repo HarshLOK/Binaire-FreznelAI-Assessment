@@ -1,0 +1,54 @@
+{
+  "models": [
+    {
+      "id": "m-1",
+      "name": "Nova Alpha 7B",
+      "family": "Nova",
+      "pipeline": "text-generation",
+      "architecture": "transformer",
+      "weight": "7B",
+      "safetensorCount": 8,
+      "tags": ["chat", "english"]
+    },
+    {
+      "id": "m-2",
+      "name": "Nova Vision 13B",
+      "family": "Nova",
+      "pipeline": "image-to-text",
+      "architecture": "vision-transformer",
+      "weight": "13B",
+      "safetensorCount": 11,
+      "tags": ["multimodal"]
+    },
+    {
+      "id": "m-3",
+      "name": "Atlas Guard 70B",
+      "family": "Atlas",
+      "pipeline": "text-classification",
+      "architecture": "mixture-of-experts",
+      "weight": "70B",
+      "safetensorCount": 32,
+      "tags": ["safety", "moderation"]
+    },
+    {
+      "id": "m-4",
+      "name": "Lumen Embed 3B",
+      "family": "Lumen",
+      "pipeline": "feature-extraction",
+      "architecture": "encoder",
+      "weight": "3B",
+      "safetensorCount": 4,
+      "tags": ["embedding"]
+    },
+    {
+      "id": "m-5",
+      "name": "Atlas Chat 34B",
+      "family": "Atlas",
+      "pipeline": "text-generation",
+      "architecture": "transformer",
+      "weight": "34B",
+      "safetensorCount": 16,
+      "tags": ["chat", "instruction"]
+    }
+  ]
+}
